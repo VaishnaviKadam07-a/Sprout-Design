@@ -1,0 +1,140 @@
+{
+  "v": 3,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-10-18T11:40:00Z"
+  },
+  "title": "Sprout 2.0 Homepage and Onboarding",
+  "launch": {
+    "view": "canvas"
+  },
+  "pages": [],
+  "boards": {
+    "Main.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 390,
+      "h": 4268,
+      "title": "Homepage, mobile",
+      "expand": "fill"
+    },
+    "Home-Desktop.dc.html": {
+      "x": 470,
+      "y": 0,
+      "w": 1440,
+      "h": 3384,
+      "title": "Homepage, desktop",
+      "expand": "fill"
+    },
+    "Onb-1-Welcome.dc.html": {
+      "x": 2000,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "Onboarding 1: Welcome",
+      "is_interactive": true
+    },
+    "Onb-2-Ready.dc.html": {
+      "x": 2470,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "Onboarding 2: Keep these ready",
+      "is_interactive": true
+    },
+    "Onb-3-Mobile.dc.html": {
+      "x": 2940,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "Onboarding 3: Verify mobile (OTP)",
+      "is_interactive": true
+    },
+    "Onb-4-Identity.dc.html": {
+      "x": 3410,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "Onboarding 4: Identity (PAN)",
+      "is_interactive": true
+    },
+    "Onb-5-Waiting.dc.html": {
+      "x": 3880,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "Onboarding 5: Checking details",
+      "is_interactive": true
+    },
+    "Onb-2-Hindi.dc.html": {
+      "x": 4350,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "Hindi stress test: screen 2 (draft)"
+    },
+    "Mascot-System.dc.html": {
+      "x": 2000,
+      "y": 1244,
+      "w": 1280,
+      "h": 1823,
+      "title": "Mascot and system"
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "Home-Desktop.dc.html",
+    "Onb-1-Welcome.dc.html",
+    "Onb-2-Ready.dc.html",
+    "Onb-3-Mobile.dc.html",
+    "Onb-4-Identity.dc.html",
+    "Onb-5-Waiting.dc.html",
+    "Onb-2-Hindi.dc.html",
+    "Mascot-System.dc.html"
+  ],
+  "notes": {
+    "t-home": {
+      "x": 0,
+      "y": -300,
+      "text": "Homepage",
+      "kind": "title1",
+      "maxW": 1910
+    },
+    "t-onb": {
+      "x": 2000,
+      "y": -300,
+      "text": "App onboarding: the same story",
+      "kind": "title1",
+      "maxW": 2740
+    },
+    "t-sys": {
+      "x": 2000,
+      "y": 944,
+      "text": "Mascot and system",
+      "kind": "title1",
+      "maxW": 1280
+    },
+    "n-comp": {
+      "x": 470,
+      "y": 3560,
+      "w": 420,
+      "fill": "teal",
+      "text": "Compliance: a 13px risk warning sits inside the first screen on every page that talks about investing. No 'guaranteed', 'safe' or 'risk-free' anywhere, in English or Hindi."
+    },
+    "n-perf": {
+      "x": 950,
+      "y": 3560,
+      "w": 420,
+      "fill": "blue",
+      "text": "Weight: inline SVG mascot, one font family, no hero photo, video loads only on tap. Target under 300 KB on first load, against a 1.5 MB limit."
+    },
+    "n-mkt": {
+      "x": 1430,
+      "y": 3560,
+      "w": 420,
+      "fill": "orange",
+      "text": "Marketing asks: video yes (tap to load). Mascot yes (restrained). Referral yes (quiet strip). Three pop-ups becomes none on first visit. Live ticker deferred to phase 2."
+    }
+  },
+  "designSystems": []
+}

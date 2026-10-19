@@ -1,0 +1,81 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Onboarding 1, Welcome</title>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+:root{--cream:#F8F6F0;--white:#FFFFFF;--ink:#14251D;--muted:#4F6158;--line:#DDD9CC;--ctl:#6F7F76;--primary:#17694A;--primary-d:#11553B;--deep:#0D3327;--leaf:#B9E26B;--tint:#E6F0E2}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:'Hind','Noto Sans Devanagari',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+h1,h2,h3,p,ol,ul{margin:0;padding:0}
+ol,ul{list-style:none}
+a{color:var(--primary)}
+:focus-visible{outline:3px solid var(--primary);outline-offset:3px}
+.scr{width:390px;height:844px;display:flex;flex-direction:column;background:var(--cream);overflow:hidden}
+.bar{height:64px;flex:none;display:flex;align-items:center;justify-content:space-between;padding:0 12px 0 8px}
+.mark{width:44px;height:44px;display:flex;align-items:center;justify-content:center}
+.prog{display:flex;align-items:flex-end;gap:7px;height:36px}
+.lang{display:flex;border:1.5px solid var(--ctl);border-radius:12px;overflow:hidden}
+.lang a{display:flex;align-items:center;justify-content:center;min-width:46px;min-height:44px;font-weight:600;font-size:15px;text-decoration:none;color:var(--ink)}
+.lang a[aria-current="true"]{background:var(--deep);color:var(--cream)}
+.main{flex:1;min-height:0;padding:6px 20px 12px;display:flex;flex-direction:column;overflow-y:auto}
+.eyebrow{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--primary)}
+h1{font-size:30px;line-height:1.12;font-weight:700;letter-spacing:-0.015em;color:var(--deep);margin-top:6px;text-wrap:balance}
+.sub{font-size:17px;color:var(--muted);margin-top:8px;text-wrap:pretty}
+.art{position:relative;display:flex;justify-content:center;align-items:center;height:210px;margin:6px 0 4px}
+.halo{position:absolute;width:200px;height:200px;border-radius:50%;background:var(--tint)}
+.art svg{position:relative}
+.pts{display:flex;flex-direction:column;gap:4px;margin-top:14px}
+.pts li{display:flex;gap:10px;align-items:center;min-height:30px;font-size:16px;color:var(--ink)}
+.foot{flex:none;padding:10px 20px 0;display:flex;flex-direction:column;gap:2px}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;min-height:54px;padding:0 24px;border-radius:14px;font-weight:600;font-size:18px;text-decoration:none;border:0;cursor:pointer}
+.btn-primary{background:var(--primary);color:#FFFFFF}
+.btn-primary:hover{background:var(--primary-d)}
+.btn-text{background:transparent;color:var(--primary);min-height:48px;font-size:17px}
+.risk{margin:8px -20px 0;padding:12px 20px 16px;background:var(--tint);font-size:13px;line-height:1.45;color:var(--ink)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head><body>
+
+<div class="scr">
+  <header class="bar">
+    <div class="mark"><svg width="32" height="32" viewBox="0 0 120 120" aria-hidden="true"><ellipse cx="60" cy="84" rx="28" ry="30" fill="#0D3327"/><path d="M60 52C45 53 32 45 28 28C45 25 58 35 60 52Z" fill="#7CC24E"/><path d="M60 52C75 53 88 45 92 28C75 25 62 35 60 52Z" fill="#B9E26B"/><circle cx="50" cy="82" r="4.6" fill="#F8F6F0"/><circle cx="70" cy="82" r="4.6" fill="#F8F6F0"/></svg></div>
+    <div class="prog" role="img" aria-label="Step 1 of 5">
+      <svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><g fill="#B9E26B" stroke="#0D3327" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="18" r="4"/></g></svg>
+      <svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="#6F7F76" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V13"/><path d="M12 15C8.5 15 6 12.5 6 9C9.5 9 12 11.5 12 15Z"/></g></svg>
+      <svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="#6F7F76" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V11"/><path d="M12 17C8.5 17 6 14.5 6 11C9.5 11 12 13.5 12 17Z"/><path d="M12 14C15.5 14 18 11.5 18 8C14.5 8 12 10.5 12 14Z"/></g></svg>
+      <svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="#6F7F76" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V9"/><path d="M12 18C7.5 18 4.5 15 4.5 10.5C9 10.5 12 13.5 12 18Z"/><path d="M12 14C16.5 14 19.5 11 19.5 6.5C15 6.5 12 9.5 12 14Z"/></g></svg>
+      <svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="#6F7F76" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V6"/><path d="M12 18C7.5 18 4.5 15 4.5 10.5C9 10.5 12 13.5 12 18Z"/><path d="M12 14C16.5 14 19.5 11 19.5 6.5C15 6.5 12 9.5 12 14Z"/><circle cx="12" cy="4.5" r="2.5"/></g></svg>
+    </div>
+    <nav class="lang" aria-label="Language">
+      <a href="#" lang="en" aria-current="true">EN</a>
+      <a href="#" lang="hi">हिं</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <p class="eyebrow">Step 1 of 5</p>
+    <div class="art">
+      <div class="halo"></div>
+      <svg width="190" height="190" viewBox="0 0 120 120" role="img" aria-label="Ankur, the Sprout seedling, waving a leaf">
+        <ellipse cx="60" cy="113" rx="26" ry="3.6" fill="#0D3327" opacity=".14"/>
+        <ellipse cx="60" cy="84" rx="28" ry="30" fill="#0D3327"/>
+        <path d="M60 52C45 53 32 45 28 28C45 25 58 35 60 52Z" fill="#7CC24E"/>
+        <g transform="rotate(18 60 52)"><path d="M60 52C75 53 88 45 92 28C75 25 62 35 60 52Z" fill="#B9E26B"/></g>
+        <circle cx="50" cy="82" r="4.6" fill="#F8F6F0"/><circle cx="70" cy="82" r="4.6" fill="#F8F6F0"/>
+        <path d="M53 94Q60 100 67 94" fill="none" stroke="#F8F6F0" stroke-width="2.6" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <h1>Hi, I am Ankur. Let us get you started.</h1>
+    <p class="sub">Your first investment can be as small as ₹100. I will explain each step, and you decide each one.</p>
+    <ul class="pts">
+      <li><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#17694A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>A few minutes from start to finish</li>
+      <li><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#17694A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Pause and come back any time</li>
+      <li><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#17694A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Plain language, no jargon</li>
+    </ul>
+  </main>
+
+  <footer class="foot">
+    <a class="btn btn-primary" href="Onb-2-Ready.html">Get started</a>
+    <a class="btn btn-text" href="#">I already have an account</a>
+    <p class="risk"><strong>Risk warning.</strong> Investments are subject to market risks, including the loss of money. Read all related documents carefully before you invest.</p>
+  </footer>
+</div>
+</body></html>
